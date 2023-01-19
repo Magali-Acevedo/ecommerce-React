@@ -1,0 +1,28 @@
+.navMenu {
+    width: 90%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #565656;
+    
+}
+.containerNavMenu {
+    background: -webkit-linear-gradient(0deg,#fff,#fff),#f5f5f5!important;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 13%);
+}
+
+.navMenu li span {
+    margin-left: 8px;
+}
+.navMenu:first-child li{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+.navMenu:last-child li a {
+    color: #565656;
+    font-weight: 500;
+    font-size: 16px;
+}

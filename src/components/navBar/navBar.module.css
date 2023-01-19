@@ -1,0 +1,24 @@
+.navBar {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ion-icon {
+    color: #565656;
+}
+
+.miCuenta span ion-icon {
+    width: 8px;
+    padding-left: 2px;
+}
+.miCuenta span {
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.miCuenta{
+    display: flex;
+    align-items: center;
+}
